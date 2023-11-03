@@ -133,4 +133,47 @@ img {
         max-width: 100%;
     }
  }
- 
+
+ @media screen and (max-width: 480px){
+    .container{
+        max-width: 100%;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .lessons .col{
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .steps .col{
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .why-us{
+        background-color: rgb(35, 34, 34);
+        padding: 50px 0 50px 0;
+        margin-bottom: 0;
+    }
+
+    .steps{
+        margin: 3rem 0 0 0;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+        padding: 55px 0 55px 0;
+    }
+
+    .why-us .col-right{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+ }
